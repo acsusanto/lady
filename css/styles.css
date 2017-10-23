@@ -9,27 +9,13 @@
 
 /* Global Styles */
 body {
-	background: lightblue;
-}
-.alex {
-    color:red;
-}
-/*Id selectors. # in front*/
 
-.style {
-	color: blue;
-}
-
-.name {
-	font-size: 16 px;
-}
-
-.style.name {
-	background: green;
 }
 
 /*Header and Footer*/
-
+header, footer {
+	background: #2B2D42;
+}
 
 
 /*Work Experience*/
