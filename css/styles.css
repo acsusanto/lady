@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background: lightblue;
+}
+.alex {
+    color:red;
+}
+/*Id selectors. # in front*/
+
+.style {
+	color: blue;
+}
+
+.name {
+	font-size: 16 px;
+}
+
+.style.name {
+	background: green;
+}
