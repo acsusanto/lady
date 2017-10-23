@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+/* Color Palette
+#2B2D42 - Dark blue
+#8D99AE - Light Blue
+#EDF2F4 - Blue/White
+#EF233C - Red
+*/
+
 /* Global Styles */
 body {
 	background: lightblue;
