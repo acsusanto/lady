@@ -9,9 +9,19 @@
 
 /* Global Styles */
 body {
-
+    font-family: 'Open Sans', sans-serif;
 }
 
+h1,h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+}
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-size: 40px;
+}
 a {
    color: #EF233C; 
 }
@@ -19,12 +29,25 @@ a {
 a:hover {
     text-decoration: none;
 }
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:1fr 2fr;
+}
+.grid-item {
+    border: 1px solid #222;
+    text-align: center;
+}
 
 /*Header and Footer*/
 header, footer {
 	background: #2B2D42;
     color: #8D99AE;
 }
+
 
 /*
 header h1 {
@@ -42,3 +65,4 @@ header h1 {
 .education {
     background: #8D99AE;
 }
+
