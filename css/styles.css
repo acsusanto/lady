@@ -51,6 +51,11 @@ a:hover {
 	padding: 50px;
 	overflow: hidden;
 }
+.list-font-width {
+	font-weight: bold;
+	text-align: left;
+	font-size: x-large;
+}
 .col-narrow {
 	width: 30%;
 	float: left;
@@ -90,6 +95,7 @@ header, footer {
 header {
 	text-align: center;
 }
+
 
 /* Header */
 header h1, header h2 {
