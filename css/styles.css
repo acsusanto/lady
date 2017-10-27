@@ -55,6 +55,12 @@ a:hover {
 	width: 30%;
 	float: left;
 }
+.left-indent {
+	text-indent: 0px;
+	display: inline-block;
+	margin: 0;
+	border: medium ;	
+}
 
 .col-wide {
 	width: 70%;
@@ -111,6 +117,10 @@ header h1 {
 /*Work Experience*/
 .work {
     background: #EDF2F4;
+}
+.bolded {
+	font-weight: bold;
+	font-size: medium;
 }
 
 /*Education  */
