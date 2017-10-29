@@ -26,16 +26,16 @@ body {
 	border-radius: 50%;
 
 }
-h1,h2 {
-    font-family: 'Caveat', cursive;
-    font-weight: 400;
+h2 {
+    font-size: 40px;
+	margin-top: 0;
 }
 h1 {
     font-size: 80px;
 }
-h2 {
-    font-size: 40px;
-	margin-top: 0;
+h1,h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
 }
 
 a {
@@ -57,8 +57,9 @@ a:hover {
 	font-size: x-large;
 }
 .col-narrow {
-	width: 30%;
-	float: left;
+    width: 30%;
+    float: left;
+    font-weight: bold;
 }
 .left-indent {
 	text-indent: 0px;
@@ -132,6 +133,9 @@ header h1 {
 /*Education  */
 .education {
     background: #8D99AE;
+}
+h2 ~ p {
+    margin: 0;
 }
 
 
