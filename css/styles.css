@@ -69,9 +69,10 @@ a:hover {
 }
 
 .col-wide {
-	width: 70%;
-	float: left;
-	padding-left: 20px;
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    text-align: left;
 }
 
 .grid-container {
@@ -94,7 +95,7 @@ header, footer {
 }
 
 header {
-	text-align: center;
+    text-align: left;
 }
 
 
@@ -107,6 +108,9 @@ header h1, header h2 {
 /* Footer */
 footer {
 	text-align: center;
+}
+nav {
+    text-align: center;
 }
 
 .contact-info a {
