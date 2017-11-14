@@ -62,33 +62,13 @@ a:hover {
     bottom: 0;
     right: 0;
 }
-.col-narrow {
-    width: 30%;
-    float: left;
-    font-weight: bold;
-}
+
+
 .left-indent {
 	text-indent: 0px;
 	display: inline-block;
 	margin: 0;
 	border: medium ;	
-}
-
-.col-wide {
-    width: 70%;
-    float: left;
-    padding-left: 20px;
-    text-align: left;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns:1fr 3fr;
-}
-
-.grid-item {
-    border: 1px solid #222;
-    text-align: center;
 }
 
 /*Header and Footer*/
@@ -178,4 +158,39 @@ footer a {
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
+}
+
+@media (min-width:900px){
+    .grid-container {
+    display: grid;
+    grid-template-columns:1fr 3fr;
+}
+
+.grid-item {
+    border: 1px solid #222;
+    text-align: center;
+}
+    .col-narrow {
+    width: 30%;
+    float: left;
+    font-weight: bold;
+}
+
+
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    text-align: left;
+}
+}
+
+@media (max-width:899px){
+    header {
+        text-align: center;
+    }
+    .profile-img {
+        width: 200px;
+    }
+    
 }
