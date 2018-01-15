@@ -100,9 +100,10 @@ footer {
 nav {
     text-align: center;
     background-color: white;
-    position:fixed;
+    position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100;
 }
 nav a {
     padding: 15px 20px;
@@ -192,5 +193,8 @@ footer a {
     .profile-img {
         width: 200px;
     }
+.col-narrow {
+    font-weight: bold;
+}
     
 }
